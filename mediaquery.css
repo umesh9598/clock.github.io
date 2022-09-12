@@ -1,0 +1,87 @@
+@media (max-width :300px) {
+    #navbar ul{
+        flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    #navbar ul li{
+        font-size: 12px;
+        padding: 0;
+    }
+    .time{
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 264px;
+        background: lightblue;
+        font-size: 27px;
+        color: darkslategray;
+        border-radius: 10px;
+        box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+        padding: 0 20px;
+           }  
+}
+@media (max-width :600px) and (min-width : 300px){
+    #navbar ul{
+        flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    #navbar ul li{
+        font-size: 1rem;
+    }
+    .time{
+        justify-content: center;
+        align-items: center;
+        width: 339px;
+        height: 264px;
+        background: lightblue;
+        font-size: 27px;
+        color: darkslategray;
+        border-radius: 10px;
+        box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+        padding: 0 20px;
+           }  
+}
+@media (max-width :1000px) and (min-width : 600px){
+    #navbar ul{
+       
+      justify-content: center;
+      align-items: center;
+    }
+    #navbar ul li{
+        font-size: 1.5rem;
+    }
+    .time{
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+         height: 320px;
+        background: lightblue;
+        font-size: 27px;
+        color: darkslategray;
+        border-radius: 10px;
+        box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+           }  
+}
+@media (max-width :1400px) {
+    #navbar ul{
+       
+      justify-content: center;
+      align-items: center;
+    }
+    #navbar ul li{
+        font-size: 1.5rem;
+    }
+    .time{
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+         height: 300px;
+        background: lightblue;
+        font-size: 27px;
+        color: darkslategray;
+        border-radius: 10px;
+        box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+           }  
+}
